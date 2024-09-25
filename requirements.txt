@@ -1,0 +1,4 @@
+future~=1.0.0
+pygame~=2.6.0
+mutagen~=1.47.0
+pillow~=10.4.0
