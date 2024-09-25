@@ -6,9 +6,10 @@ All basic music-player features  are available like:<br>
 - volume control<br>
 - play/pause
 - .mp3 file playback
+- playbar
 
  ## ❗IMPORTANT❗
-The python script creates two folders in ProgramData: OzansMusicPlayer/AudioFiles
+<strong>The python script creates two folders in ProgramData: OzansMusicPlayer/AudioFiles</strong><br>
 When the user uploads mp3 files from his machine they get copied into that directory. That folder also get scanned for mp3 files everytime the script starts.
 
 
@@ -17,7 +18,12 @@ When the user uploads mp3 files from his machine they get copied into that direc
 pip install -r /path/to/requirements.txt
 ```
 
-## Usage
+## Images
+![image](https://github.com/user-attachments/assets/ac770eb4-7081-4466-af6b-3df435ec3653)
+
+
+
+## Module Usage
 - pygame: is used for playing audio with pygame mixer music<br>
 - mutagen: used for scanning the .mp3 file for the cover<br>
 - pillow: used for implementing images into the code<br>
